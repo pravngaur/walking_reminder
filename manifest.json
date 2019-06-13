@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "walking reminder",
+    "version": "1.0",
+    "description": "A reminder extension for people to walk who are working on computers",
+    "icons": {
+        "128": "Logo/logo128.png",
+        "48": "Logo/logo48.png",
+        "16": "Logo/logo16.png"
+    },
+    "browser_action":{
+        "default_icon": "Logo/logo128.png",
+        "default_popup": "html/popup.html"
+    },
+    "permissions": ["storage", "alarms"],
+    "background": {
+        "scripts": ["background.js"]
+    }
+}

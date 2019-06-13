@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script type = "text/javascript" src = "../js/jquery-3.4.1.min.js" ></script>    
+    <script type = "text/javascript" src = "../js/timer.js" ></script>    
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div id="clockdiv"> 
+        <h1>Countdown Clock</h1> 
+        <div> 
+            <span class="minutes" id="minute"></span> 
+            <div class="smalltext">Minutes</div> 
+        </div> 
+        <div> 
+            <span class="seconds" id="second"></span> 
+            <div class="smalltext">Seconds</div> 
+        </div> 
+    </div> 
+    <div id="buttons_wrapper">
+        <button id="disable_alarm" style="display: block;">Don't Disturb</button>
+        <button id="enable_alarm" style="display: none;">Observe Me</button>
+        <button id="iam_back" style="display: none;">I'm back</button>
+    </div>
+    <script type = "text/javascript" src="../js/alarms.js"></script>
+    <script type = "text/javascript" src="../background.js"></script>
+</body>
+
+
+</html>
